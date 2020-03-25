@@ -1,18 +1,15 @@
     package com.lista.listadetareas.riuz.unbording;
 
-        import android.content.DialogInterface;
-        import android.content.SharedPreferences;
-
-        import androidx.appcompat.app.AlertDialog;
-        import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AlertDialog;                                      import android.content.DialogInterface;
+        import androidx.appcompat.app.AppCompatActivity;                                import org.json.JSONObject;
         import android.os.Bundle;                                                       import android.widget.TextView;
-        import android.widget.Toast;
-        import com.android.volley.Request;
+        import android.widget.Toast;                                                    import com.android.volley.VolleyError;
+        import com.android.volley.Request;                                              import android.content.SharedPreferences;
         import com.android.volley.RequestQueue;                                         import com.android.volley.toolbox.JsonObjectRequest;
         import com.android.volley.toolbox.Volley;                                       import com.lista.listadetareas.riuz.unbording.accounts.BanManager;
-        import com.lista.listadetareas.riuz.unbording.accounts.userData;                import com.android.volley.VolleyError;
+        import com.lista.listadetareas.riuz.unbording.accounts.userData;                import org.json.JSONException;
         import com.android.volley.Response;
-        import org.json.JSONException;                                                 import org.json.JSONObject;
+                                                          
 
 
     public class HomeActivity extends AppCompatActivity {
